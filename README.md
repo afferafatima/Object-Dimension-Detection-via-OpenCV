@@ -35,9 +35,8 @@ This project calculates the **physical dimensions** of objects in an image by:
 
 ## 🪙 Reference Object
 
-In the example images, a **US quarter coin** is used:
 
-- Known diameter: **0.955 inches** (24.26 mm)
+- Its diameter is Known.
 - Acts as a real-world scale for measurement
 
 ---
