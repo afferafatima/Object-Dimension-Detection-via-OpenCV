@@ -53,9 +53,31 @@ In the example images, a **US quarter coin** is used:
 
 ```bash
 pip install opencv-python numpy imutils
-```
 
+```
+## ✅ Output
+
+- Bounding boxes drawn around each object  
+- Width and height annotated in selected units  
+- Image is saved or displayed with measurements  
+
+![Object Dimensions Example](test_01.gif)
 ---
+## ⚠️ Limitations
+
+- Works best with **top-down images**
+- **Lens distortion** can impact accuracy
+- Accuracy depends on **clear visibility** of the reference object
+- For high-accuracy: consider **camera calibration**
+
+
+## 📌 To-Do / Improvements
+
+- Add camera calibration support
+- Add GUI or web interface
+- Support for automatic reference object detection
+- Improve robustness for angled images
+
 
 ## 🧪 Example Usage
 
@@ -74,30 +96,4 @@ python object_size.py --image images/test_02.png --width 0.955 --unit meters
 
 ---
 
-## ✅ Output
 
-- Bounding boxes drawn around each object  
-- Width and height annotated in selected units  
-- Image is saved or displayed with measurements  
-
-![Object Dimensions Example](test_01.gif)
-
----
-
-## ⚠️ Limitations
-
-- Works best with **top-down images**
-- **Lens distortion** can impact accuracy
-- Accuracy depends on **clear visibility** of the reference object
-- For high-accuracy: consider **camera calibration**
-
----
-
-
-
-## 📌 To-Do / Improvements
-
-- Add camera calibration support
-- Add GUI or web interface
-- Support for automatic reference object detection
-- Improve robustness for angled images
