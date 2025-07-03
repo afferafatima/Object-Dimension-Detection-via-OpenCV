@@ -12,8 +12,6 @@ This project calculates the **physical dimensions** of objects in an image by:
 - Using a known reference object to calculate a **Pixels-Per-Metric (PPM)** ratio
 - Converting pixel measurements into real-world units (inches, cm, meters, etc.)
 
----
-
 ## ⚙️ How It Works
 
 1. **Contour Detection** – Identifies all objects using edge detection.
@@ -22,8 +20,6 @@ This project calculates the **physical dimensions** of objects in an image by:
 4. **Reference Scaling** – Uses a known-size object (e.g., coin) to calculate PPM.
 5. **Measurement Annotation** – Outputs and annotates width/height in your chosen unit.
 
----
-
 ## 🧾 Assumptions
 
 - A **clearly visible** reference object is in the image.
@@ -31,7 +27,6 @@ This project calculates the **physical dimensions** of objects in an image by:
 - The image is taken from a **near top-down perspective** (minimal distortion).
 - The reference object is **distinct and detectable** (e.g., shape, position).
 
----
 
 ## 🪙 Reference Object
 
@@ -39,7 +34,6 @@ This project calculates the **physical dimensions** of objects in an image by:
 - Its diameter is Known.
 - Acts as a real-world scale for measurement
 
----
 
 ## 📦 Requirements
 
